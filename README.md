@@ -28,4 +28,7 @@ Contains a basic interface in main.cpp to use a basic implementation of these fu
   - Redefinition of the square brackets for easier acess to entries and modification. 
   - Inserter and redefintion of << for compatability with ostream. Prints out all of the entries in the array.
 
+* Classes for custom exception handling that can have an appended description of their own.
+  - noSpace exception - is meant to be thrown when there's not enough space to allocate for a new entry.
+  - notUsed exception - is meant to be thrown when there's a function that needs at least one entry to function but none were found. 
   
